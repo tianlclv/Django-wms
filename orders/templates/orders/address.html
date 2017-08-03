@@ -1,0 +1,22 @@
+{% extends "./base.html" %}
+{% block content %}
+    <section class="content-header">
+      <h1>
+        地址管理
+        <small>Address panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="./index"><i class="fa fa-dashboard"></i>总览</a></li>
+        <li class="active">地址管理</li>
+      </ol>
+    </section>
+    <section class="content">
+      <div>
+        <form action="" method="POST">
+          {% csrf_token %}
+          {{ form }}
+          <input type="submit" value="提交" >
+        </form>
+      </div>
+    </section>
+{% endblock %}

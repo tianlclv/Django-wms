@@ -1,0 +1,187 @@
+{% extends "./base.html" %}
+{% block content %}
+    <section class="content-header">
+      <h1>
+        用户管理
+        <small>User panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="./index"><i class="fa fa-dashboard"></i>总览</a></li>
+        <li class="active">用户管理</li>
+      </ol>
+    </section>
+
+    <section class="content">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box box-info">
+          <div class="box-header with-border">
+            <h3 class="box-title">新增用户</h3>
+          </div>
+          <form class="form-horizontal" action="" method="post">
+            {% csrf_token %}
+            <div class="box-body">
+              <div class="form-group">
+                <label  for="user_name" class="col-sm-1 control-label">姓名:</label>
+                <div class="col-sm-5">
+                  {{ form.user_name }}
+                </div>
+                <label for="user_email" class="col-sm-1 control-label">Email:</label>
+                <div class="col-sm-5">
+                  {{ form.user_email }}
+                  <div class="text-red">{{ errors.user_email }}</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="user_phone" class="col-sm-1 control-label">手机:</label>
+                <div class="col-sm-5">
+                  {{ form.user_phone }}
+                </div>
+                <label for="user_qq" class="col-sm-1 control-label">QQ:</label>
+                <div class="col-sm-5">
+                  {{ form.user_qq }}
+                </div>                
+              </div>
+              <div class="form-group">
+                <label for="user_weixin" class="col-sm-1 control-label">微信:</label>
+                <div class="col-sm-5">
+                  {{ form.user_weixin }}
+                </div>
+                <label for="user_taobao" class="col-sm-1 control-label">淘宝:</label>
+                <div class="col-sm-5">
+                  {{ form.user_taobao }}
+                </div>                
+              </div>
+            </div>
+            <div class="box-footer">
+            <button type="submit" class="btn btn-info center-block" value="OK">提交</button>
+            </div>
+          </form>          
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title">用户列表</h3>
+          </div>
+          <div class="box-body">
+            <div id="user_list" class="dataTables_wrapper form-inline dt-bootstrap">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="dataTables_length" id="user_list_length">
+                    <label>
+                      一页显示
+                      <select name="user_list_length" aria-controls="user_list" class="form-control input-sm">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option> 
+                      </select>
+                      条用户信息
+                    </label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div id="user_list_filter" class="dataTables_filter">
+                    <label>
+                      搜索用户：
+                      <select name="user_list_fenlei" aria-controls="user_list" class="form-control input-sm">
+                        <option value="#">用户名</option>
+                        <option value="#">手机号</option>
+                        <option value="#">微信号</option>
+                        <option value="#">QQ号</option> 
+                        <option value="#">淘宝号</option>
+                      </select>
+                      <input type="search" class="form-control input-sm" placeholder aria-controls="user">
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <table id="user" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="user_info">
+                    <thead>
+                      <tr role="row">
+                        <th style="width: 50px;"  class="text-center">
+                        序号
+                        </th>
+                        <th style="width: 120px;" class="text-center">
+                        用户名
+                        </th>
+                        <th style="width: 120px;" class="text-center">
+                        手机号码
+                        </th>
+                        <th style="width: 120px;" class="text-center">
+                        微信号
+                        </th>
+                        <th style="width: 120px;" class="text-center">
+                        QQ
+                        </th>
+                        <th style="width: 200px;" class="text-center">
+                        淘宝
+                        </th>
+                        <th style="width: 200px;" class="text-center">
+                        详情记录
+                        </th>
+                        <th style="width: 200px;" class="text-center">
+                        评价
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    {% for user_list in  user_lists %}
+                      <tr role="row" class="text-center" >
+                        <td style="vertical-align: middle;">{{user_list.user_name}}</td>
+                        <td style="vertical-align: middle;">{{user_list.user_qq}}</td>
+                        <td style="vertical-align: middle;">{{user_list.user_weixin}}</td>
+                        <td style="vertical-align: middle;">{{user_list.user_phone}}</td>
+                        <td style="vertical-align: middle;">{{user_list.user_taobao}}</td>
+                        <td style="vertical-align: middle;">{{user_list.user_name}}</td>
+                        <td>
+                          <div>
+                            <div class="external-event bg-light-blue ui-draggable ui-draggable-handle" style="position:relative;">订单记录</div>
+                            <div class="external-event bg-green ui-draggable ui-draggable-handle" style="position:relative;">地址列表</div>
+                          </div>
+                        </td>
+                        <td style="vertical-align: middle;" class="mailbox-star">
+                          <a href="">
+                            <i class="fa text-yellow fa-star"></i>
+                            <i class="fa text-yellow fa-star"></i>
+                            <i class="fa text-yellow fa-star"></i>
+                            <i class="fa text-yellow fa-star"></i>
+                            <i class="fa text-yellow fa-star"></i>
+                          </a>
+                        </td>                        
+                      </tr>
+                    {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+                  <div class="dataTable_info" id="user_list" role="status" aria-live="polite">显示 1 to 10 of 57 entries</div>
+                </div>
+                <div class="col-sm-7">
+                  <div class="dataTable_paginate paging_simple_numbers" id="user_list_paginate">
+                    <ul class="pagination">
+                      <li class="paginate_button previous disabled" id="user_list_previous">
+                        <a href="#" aria-controls="user" data-dt-idx="0" tabindex="0">首页</a>
+                      </li>
+                      <li class="paginate_button active">
+                        <a href="#" aria-controls="user" data-dt-idx="1" tabindex="0">1</a>
+                      </li>
+                      <li class="paginate_button next" id="user_list_next">
+                        <a href="#" aria-controls="user" data-dt-idx="7" tabindex="0">下一页</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+{% endblock %}

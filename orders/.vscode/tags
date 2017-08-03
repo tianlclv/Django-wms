@@ -1,0 +1,313 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170723_0536.py	../migrations/0002_auto_20170723_0536.py	1;"	kind:file	line:1
+0003_auto_20170723_0541.py	../migrations/0003_auto_20170723_0541.py	1;"	kind:file	line:1
+0004_auto_20170729_0816.py	../migrations/0004_auto_20170729_0816.py	1;"	kind:file	line:1
+0005_auto_20170729_0854.py	../migrations/0005_auto_20170729_0854.py	1;"	kind:file	line:1
+ADDRESS_AREA_CHOICES	../models.py	/^    ADDRESS_AREA_CHOICES = ($/;"	kind:variable	line:35
+Address	../models.py	/^class Address(models.Model):$/;"	kind:class	line:34
+AddressForm	../forms.py	/^class AddressForm(forms.ModelForm):$/;"	kind:class	line:6
+Converter	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^class Converter:$/;"	kind:class	line:34
+Converter	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class Converter:$/;"	kind:class	line:34
+DataSource	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class DataSource:$/;"	kind:class	line:228
+Geometry	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class Geometry:$/;"	kind:class	line:203
+GeometryProperty	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class GeometryProperty(Variable):$/;"	kind:class	line:209
+Luser	../models.py	/^class Luser(models.Model):$/;"	kind:class	line:52
+Map	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^class Map:$/;"	kind:class	line:17
+Map	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class Map:$/;"	kind:class	line:17
+Meta	../forms.py	/^    class Meta:$/;"	kind:class	line:14
+Meta	../forms.py	/^    class Meta:$/;"	kind:class	line:7
+Migration	../migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../migrations/0002_auto_20170723_0536.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../migrations/0003_auto_20170723_0541.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../migrations/0004_auto_20170729_0816.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../migrations/0005_auto_20170729_0854.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+ORDER_STATUS_CHOICES	../models.py	/^    ORDER_STATUS_CHOICES = ($/;"	kind:variable	line:15
+ORDER_TYPE_CHOICES	../models.py	/^    ORDER_TYPE_CHOICES = ($/;"	kind:variable	line:5
+Order	../models.py	/^class Order(models.Model):$/;"	kind:class	line:4
+OrdersConfig	../apps.py	/^class OrdersConfig(AppConfig):$/;"	kind:class	line:4
+PolygonSimplifier	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class PolygonSimplifier:$/;"	kind:class	line:346
+Processor	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class Processor:$/;"	kind:class	line:469
+Product	../models.py	/^class Product(models.Model):$/;"	kind:class	line:94
+TRACK_TYPE_CHOOICES	../models.py	/^    TRACK_TYPE_CHOOICES = ($/;"	kind:variable	line:69
+Track	../models.py	/^class Track(models.Model):$/;"	kind:class	line:68
+UserForm	../forms.py	/^class UserForm(forms.ModelForm):$/;"	kind:class	line:12
+__init__	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def __init__(self, config):$/;"	kind:member	line:35
+__init__	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def __init__(self, name, language):$/;"	kind:member	line:18
+__init__	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def __init__(self, config):$/;"	kind:member	line:229
+__init__	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def __init__(self, config):$/;"	kind:member	line:35
+__init__	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def __init__(self, config):$/;"	kind:member	line:470
+__init__	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def __init__(self, geometries):$/;"	kind:member	line:347
+__init__	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def __init__(self, geometry, properties):$/;"	kind:member	line:204
+__init__	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def __init__(self, name):$/;"	kind:member	line:212
+__init__	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def __init__(self, name, language):$/;"	kind:member	line:18
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__init__.py	../migrations/__init__.py	1;"	kind:file	line:1
+__str__	../models.py	/^    def __str__(self):$/;"	kind:member	line:102
+__str__	../models.py	/^    def __str__(self):$/;"	kind:member	line:30
+__str__	../models.py	/^    def __str__(self):$/;"	kind:member	line:48
+__str__	../models.py	/^    def __str__(self):$/;"	kind:member	line:64
+__str__	../models.py	/^    def __str__(self):$/;"	kind:member	line:90
+addPath	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def addPath(self, path, code, name):$/;"	kind:member	line:26
+addPath	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def addPath(self, path, code, name):$/;"	kind:member	line:26
+address	../views.py	/^def address(request):$/;"	kind:function	line:39
+address_area	../models.py	/^    address_area = models.CharField($/;"	kind:variable	line:41
+address_city	../models.py	/^    address_city = models.CharField(max_length=20)$/;"	kind:variable	line:43
+address_class	../models.py	/^    address_class = models.CharField(max_length=20)$/;"	kind:variable	line:44
+address_full	../models.py	/^    address_full = models.CharField(max_length=100)$/;"	kind:variable	line:45
+address_zip	../models.py	/^    address_zip = models.CharField(max_length=10)$/;"	kind:variable	line:46
+adduser	../views.py	/^def adduser(request):$/;"	kind:function	line:22
+admin.py	../admin.py	1;"	kind:file	line:1
+applyFilters	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def applyFilters(self, geometry):$/;"	kind:member	line:263
+apps.py	../apps.py	1;"	kind:file	line:1
+args	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^args = {}$/;"	kind:variable	line:291
+args	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^args = {}$/;"	kind:variable	line:565
+belongs_to	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def belongs_to(self, value, context):$/;"	kind:member	line:218
+buffer	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def buffer(self, config, data_source):$/;"	kind:member	line:537
+conf.py	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	1;"	kind:file	line:1
+connections	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^connections = {}$/;"	kind:variable	line:60
+convert	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def convert(self, outputFile):$/;"	kind:member	line:167
+convert	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def convert(self, data_source, output_file):$/;"	kind:member	line:112
+converter	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^converter = Converter(paramsJson)$/;"	kind:variable	line:298
+converter.py	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	1;"	kind:file	line:1
+copyright	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^copyright = u'2016, eternicode'$/;"	kind:variable	line:57
+counter	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^counter = 0$/;"	kind:variable	line:179
+counter	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^counter = 0$/;"	kind:variable	line:61
+create_grammar	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def create_grammar(self):$/;"	kind:member	line:278
+dependencies	../migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	../migrations/0002_auto_20170723_0536.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../migrations/0003_auto_20170723_0541.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../migrations/0004_auto_20170729_0816.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../migrations/0005_auto_20170729_0854.py	/^    dependencies = [$/;"	kind:variable	line:10
+equals	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def equals(self, value, context):$/;"	kind:member	line:215
+error_messages	../forms.py	/^        error_messages = {$/;"	kind:variable	line:28
+exclude_patterns	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^exclude_patterns = ['_build']$/;"	kind:variable	line:71
+extensions	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^extensions = []$/;"	kind:variable	line:41
+fd	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^    fd = ogr.FieldDefn( src_fd.GetName(), src_fd.GetType() )$/;"	kind:variable	line:36
+field	../migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='orders.Luser'),$/;"	kind:variable	line:87
+field	../migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='orders.Product'),$/;"	kind:variable	line:77
+field	../migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='orders.Track'),$/;"	kind:variable	line:82
+field	../migrations/0002_auto_20170723_0536.py	/^            field=models.CharField(max_length=100, null=True),$/;"	kind:variable	line:48
+field	../migrations/0002_auto_20170723_0536.py	/^            field=models.CharField(max_length=20, null=True),$/;"	kind:variable	line:38
+field	../migrations/0002_auto_20170723_0536.py	/^            field=models.CharField(max_length=30, null=True),$/;"	kind:variable	line:43
+field	../migrations/0002_auto_20170723_0536.py	/^            field=models.CharField(max_length=50, null=True),$/;"	kind:variable	line:18
+field	../migrations/0002_auto_20170723_0536.py	/^            field=models.EmailField(max_length=254, null=True),$/;"	kind:variable	line:28
+field	../migrations/0002_auto_20170723_0536.py	/^            field=models.ManyToManyField(null=True, to='orders.Address'),$/;"	kind:variable	line:23
+field	../migrations/0002_auto_20170723_0536.py	/^            field=models.TextField(null=True),$/;"	kind:variable	line:33
+field	../migrations/0003_auto_20170723_0541.py	/^            field=models.CharField(blank=True, max_length=100, null=True),$/;"	kind:variable	line:48
+field	../migrations/0003_auto_20170723_0541.py	/^            field=models.CharField(blank=True, max_length=20, null=True),$/;"	kind:variable	line:33
+field	../migrations/0003_auto_20170723_0541.py	/^            field=models.CharField(blank=True, max_length=30, null=True),$/;"	kind:variable	line:38
+field	../migrations/0003_auto_20170723_0541.py	/^            field=models.CharField(blank=True, max_length=50, null=True),$/;"	kind:variable	line:43
+field	../migrations/0003_auto_20170723_0541.py	/^            field=models.EmailField(blank=True, max_length=254, null=True),$/;"	kind:variable	line:23
+field	../migrations/0003_auto_20170723_0541.py	/^            field=models.ManyToManyField(blank=True, null=True, to='orders.Address'),$/;"	kind:variable	line:18
+field	../migrations/0003_auto_20170723_0541.py	/^            field=models.TextField(blank=True, null=True),$/;"	kind:variable	line:28
+field	../migrations/0004_auto_20170729_0816.py	/^            field=models.CharField(blank=True, max_length=11, null=True),$/;"	kind:variable	line:28
+field	../migrations/0004_auto_20170729_0816.py	/^            field=models.CharField(blank=True, max_length=15, null=True),$/;"	kind:variable	line:33
+field	../migrations/0004_auto_20170729_0816.py	/^            field=models.CharField(blank=True, max_length=30, null=True),$/;"	kind:variable	line:18
+field	../migrations/0004_auto_20170729_0816.py	/^            field=models.CharField(blank=True, max_length=30, null=True),$/;"	kind:variable	line:38
+field	../migrations/0004_auto_20170729_0816.py	/^            field=models.CharField(blank=True, max_length=30, null=True),$/;"	kind:variable	line:43
+field	../migrations/0004_auto_20170729_0816.py	/^            field=models.CharField(max_length=10),$/;"	kind:variable	line:23
+field	../migrations/0005_auto_20170729_0854.py	/^            field=models.ManyToManyField(blank=True, to='orders.Address'),$/;"	kind:variable	line:18
+fields	../forms.py	/^        fields = "__all__"$/;"	kind:variable	line:16
+fields	../forms.py	/^        fields = "__all__"$/;"	kind:variable	line:9
+fields	../migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:30
+fields	../migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:43
+fields	../migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:54
+fields	../migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:66
+filterByMinimalArea	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def filterByMinimalArea(self, geometry):$/;"	kind:member	line:282
+filterByViewport	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def filterByViewport(self, geometry):$/;"	kind:member	line:275
+format	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^format = '%.8f %.8f'$/;"	kind:variable	line:13
+forms.py	../forms.py	1;"	kind:file	line:1
+geom_type	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^                                geom_type = in_defn.GetGeomType(),$/;"	kind:variable	line:30
+geometries	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^geometries = []$/;"	kind:variable	line:43
+geometry	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^  geometry = feature.GetGeometryRef()$/;"	kind:variable	line:45
+geometryType	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^  geometryType = geometry.GetGeometryType()$/;"	kind:variable	line:46
+getJSCode	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def getJSCode(self):$/;"	kind:member	line:29
+getJSCode	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def getJSCode(self):$/;"	kind:member	line:29
+highlight_language	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^highlight_language = 'javascript'$/;"	kind:variable	line:90
+html_static_path	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^html_static_path = ['_static']$/;"	kind:variable	line:130
+html_theme	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^html_theme = 'sphinx_rtd_theme'$/;"	kind:variable	line:100
+html_theme_path	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]$/;"	kind:variable	line:109
+htmlhelp_basename	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^htmlhelp_basename = 'bootstrap-datepickerdoc'$/;"	kind:variable	line:174
+in_defn	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^in_defn = in_layer.GetLayerDefn()$/;"	kind:variable	line:21
+in_ds	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^in_ds = ogr.Open( infile, update = 0 )$/;"	kind:variable	line:19
+in_feat	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^  in_feat = in_layer.GetNextFeature()$/;"	kind:variable	line:197
+in_feat	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^in_feat = in_layer.GetNextFeature()$/;"	kind:variable	line:178
+in_field_count	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^in_field_count = in_defn.GetFieldCount()$/;"	kind:variable	line:33
+in_layer	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^in_layer = in_ds.GetLayer( 0 )$/;"	kind:variable	line:20
+index	../views.py	/^def index(request):$/;"	kind:function	line:9
+indexFrom	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^          indexFrom = i$/;"	kind:variable	line:81
+indexTo	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^          indexTo = i+1$/;"	kind:variable	line:82
+infile	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^infile = '\/Users\/kirilllebedev\/Maps\/50m-admin-0-countries\/ne_50m_admin_0_countries.shp'$/;"	kind:variable	line:15
+initial	../migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+intersect_rect	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def intersect_rect(self, config, data_source):$/;"	kind:member	line:546
+is_subset	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def is_subset(self, value, context):$/;"	kind:member	line:221
+join_data	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def join_data(self, config, data_source):$/;"	kind:member	line:510
+latex_documents	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^latex_documents = [$/;"	kind:variable	line:192
+latex_elements	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^latex_elements = {$/;"	kind:variable	line:179
+lines	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^      lines = []$/;"	kind:variable	line:74
+loadData	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def loadData(self):$/;"	kind:member	line:105
+loadDataSource	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def loadDataSource(self, sourceConfig):$/;"	kind:member	line:109
+load_data	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def load_data(self):$/;"	kind:member	line:243
+man_pages	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^man_pages = [$/;"	kind:variable	line:222
+master_doc	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^master_doc = 'index'$/;"	kind:variable	line:53
+merge	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def merge(self, config, data_source):$/;"	kind:member	line:500
+model	../forms.py	/^        model = Address$/;"	kind:variable	line:8
+model	../forms.py	/^        model = Luser$/;"	kind:variable	line:15
+model_name	../migrations/0001_initial.py	/^            model_name='order',$/;"	kind:variable	line:75
+model_name	../migrations/0001_initial.py	/^            model_name='order',$/;"	kind:variable	line:80
+model_name	../migrations/0001_initial.py	/^            model_name='order',$/;"	kind:variable	line:85
+model_name	../migrations/0002_auto_20170723_0536.py	/^            model_name='luser',$/;"	kind:variable	line:16
+model_name	../migrations/0002_auto_20170723_0536.py	/^            model_name='luser',$/;"	kind:variable	line:21
+model_name	../migrations/0002_auto_20170723_0536.py	/^            model_name='luser',$/;"	kind:variable	line:26
+model_name	../migrations/0002_auto_20170723_0536.py	/^            model_name='luser',$/;"	kind:variable	line:31
+model_name	../migrations/0002_auto_20170723_0536.py	/^            model_name='luser',$/;"	kind:variable	line:36
+model_name	../migrations/0002_auto_20170723_0536.py	/^            model_name='luser',$/;"	kind:variable	line:41
+model_name	../migrations/0002_auto_20170723_0536.py	/^            model_name='luser',$/;"	kind:variable	line:46
+model_name	../migrations/0003_auto_20170723_0541.py	/^            model_name='luser',$/;"	kind:variable	line:16
+model_name	../migrations/0003_auto_20170723_0541.py	/^            model_name='luser',$/;"	kind:variable	line:21
+model_name	../migrations/0003_auto_20170723_0541.py	/^            model_name='luser',$/;"	kind:variable	line:26
+model_name	../migrations/0003_auto_20170723_0541.py	/^            model_name='luser',$/;"	kind:variable	line:31
+model_name	../migrations/0003_auto_20170723_0541.py	/^            model_name='luser',$/;"	kind:variable	line:36
+model_name	../migrations/0003_auto_20170723_0541.py	/^            model_name='luser',$/;"	kind:variable	line:41
+model_name	../migrations/0003_auto_20170723_0541.py	/^            model_name='luser',$/;"	kind:variable	line:46
+model_name	../migrations/0004_auto_20170729_0816.py	/^            model_name='luser',$/;"	kind:variable	line:16
+model_name	../migrations/0004_auto_20170729_0816.py	/^            model_name='luser',$/;"	kind:variable	line:21
+model_name	../migrations/0004_auto_20170729_0816.py	/^            model_name='luser',$/;"	kind:variable	line:26
+model_name	../migrations/0004_auto_20170729_0816.py	/^            model_name='luser',$/;"	kind:variable	line:31
+model_name	../migrations/0004_auto_20170729_0816.py	/^            model_name='luser',$/;"	kind:variable	line:36
+model_name	../migrations/0004_auto_20170729_0816.py	/^            model_name='luser',$/;"	kind:variable	line:41
+model_name	../migrations/0005_auto_20170729_0854.py	/^            model_name='luser',$/;"	kind:variable	line:16
+models.py	../models.py	1;"	kind:file	line:1
+name	../apps.py	/^    name = 'orders'$/;"	kind:variable	line:5
+name	../migrations/0001_initial.py	/^            name='Address',$/;"	kind:variable	line:18
+name	../migrations/0001_initial.py	/^            name='Luser',$/;"	kind:variable	line:29
+name	../migrations/0001_initial.py	/^            name='Order',$/;"	kind:variable	line:42
+name	../migrations/0001_initial.py	/^            name='Product',$/;"	kind:variable	line:53
+name	../migrations/0001_initial.py	/^            name='Track',$/;"	kind:variable	line:65
+name	../migrations/0001_initial.py	/^            name='order_product',$/;"	kind:variable	line:76
+name	../migrations/0001_initial.py	/^            name='order_track',$/;"	kind:variable	line:81
+name	../migrations/0001_initial.py	/^            name='order_user',$/;"	kind:variable	line:86
+name	../migrations/0002_auto_20170723_0536.py	/^            name='user_address',$/;"	kind:variable	line:22
+name	../migrations/0002_auto_20170723_0536.py	/^            name='user_email',$/;"	kind:variable	line:27
+name	../migrations/0002_auto_20170723_0536.py	/^            name='user_eval',$/;"	kind:variable	line:32
+name	../migrations/0002_auto_20170723_0536.py	/^            name='user_phone',$/;"	kind:variable	line:37
+name	../migrations/0002_auto_20170723_0536.py	/^            name='user_qq',$/;"	kind:variable	line:42
+name	../migrations/0002_auto_20170723_0536.py	/^            name='user_taobao',$/;"	kind:variable	line:17
+name	../migrations/0002_auto_20170723_0536.py	/^            name='user_weixin',$/;"	kind:variable	line:47
+name	../migrations/0003_auto_20170723_0541.py	/^            name='user_address',$/;"	kind:variable	line:17
+name	../migrations/0003_auto_20170723_0541.py	/^            name='user_email',$/;"	kind:variable	line:22
+name	../migrations/0003_auto_20170723_0541.py	/^            name='user_eval',$/;"	kind:variable	line:27
+name	../migrations/0003_auto_20170723_0541.py	/^            name='user_phone',$/;"	kind:variable	line:32
+name	../migrations/0003_auto_20170723_0541.py	/^            name='user_qq',$/;"	kind:variable	line:37
+name	../migrations/0003_auto_20170723_0541.py	/^            name='user_taobao',$/;"	kind:variable	line:42
+name	../migrations/0003_auto_20170723_0541.py	/^            name='user_weixin',$/;"	kind:variable	line:47
+name	../migrations/0004_auto_20170729_0816.py	/^            name='user_name',$/;"	kind:variable	line:22
+name	../migrations/0004_auto_20170729_0816.py	/^            name='user_phone',$/;"	kind:variable	line:27
+name	../migrations/0004_auto_20170729_0816.py	/^            name='user_qq',$/;"	kind:variable	line:32
+name	../migrations/0004_auto_20170729_0816.py	/^            name='user_taobao',$/;"	kind:variable	line:37
+name	../migrations/0004_auto_20170729_0816.py	/^            name='user_weibo',$/;"	kind:variable	line:17
+name	../migrations/0004_auto_20170729_0816.py	/^            name='user_weixin',$/;"	kind:variable	line:42
+name	../migrations/0005_auto_20170729_0854.py	/^            name='user_address',$/;"	kind:variable	line:17
+operations	../migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../migrations/0002_auto_20170723_0536.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../migrations/0003_auto_20170723_0541.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../migrations/0004_auto_20170729_0816.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../migrations/0005_auto_20170729_0854.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  operations = set(["equality", "membership"])$/;"	kind:variable	line:210
+order	../views.py	/^def order(request):$/;"	kind:function	line:13
+order_eval	../models.py	/^    order_eval = models.TextField()$/;"	kind:variable	line:25
+order_money	../models.py	/^    order_money = models.FloatField()$/;"	kind:variable	line:13
+order_product	../models.py	/^    order_product = models.ForeignKey('Product')$/;"	kind:variable	line:28
+order_status	../models.py	/^    order_status = models.CharField($/;"	kind:variable	line:23
+order_time	../models.py	/^    order_time = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:14
+order_track	../models.py	/^    order_track = models.ForeignKey('Track')$/;"	kind:variable	line:27
+order_type	../models.py	/^    order_type = models.CharField($/;"	kind:variable	line:11
+order_user	../models.py	/^    order_user = models.ForeignKey('Luser')$/;"	kind:variable	line:26
+out_feat	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^    out_feat = ogr.Feature( feature_def = shp_layer.GetLayerDefn() )$/;"	kind:variable	line:182
+outfile	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^outfile = 'map.shp'$/;"	kind:variable	line:16
+output	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def output(self, output):$/;"	kind:member	line:295
+output_jvm	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def output_jvm(self, output):$/;"	kind:member	line:337
+output_ogr	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def output_ogr(self, output):$/;"	kind:member	line:301
+paramsJson	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  paramsJson = open(sys.argv[1], 'r').read()$/;"	kind:variable	line:293
+paramsJson	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  paramsJson = sys.stdin.read()$/;"	kind:variable	line:295
+paramsJson	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^paramsJson = json.loads(paramsJson)$/;"	kind:variable	line:296
+paramsJson	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  paramsJson = open(sys.argv[1], 'r').read()$/;"	kind:variable	line:567
+paramsJson	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  paramsJson = sys.stdin.read()$/;"	kind:variable	line:569
+paramsJson	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^paramsJson = json.loads(paramsJson)$/;"	kind:variable	line:570
+pivotPoints	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^pivotPoints = {}$/;"	kind:variable	line:96
+pointFrom	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^          pointFrom = format % line.coords[indexFrom]$/;"	kind:variable	line:83
+pointTo	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^          pointTo = format % line.coords[indexTo]$/;"	kind:variable	line:84
+points	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^points = []$/;"	kind:variable	line:59
+polygons	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^  polygons = []$/;"	kind:variable	line:157
+polygons	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^  polygons = []$/;"	kind:variable	line:64
+primary_domain	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^primary_domain = 'js'$/;"	kind:variable	line:37
+process	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def process(self):$/;"	kind:member	line:473
+processor	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^processor = Processor(paramsJson)$/;"	kind:variable	line:572
+processor.py	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	1;"	kind:file	line:1
+product	../views.py	/^def product(request):$/;"	kind:function	line:56
+product_brand	../models.py	/^    product_brand = models.CharField(max_length=30)$/;"	kind:variable	line:97
+product_cate	../models.py	/^    product_cate = models.CharField(max_length=20)$/;"	kind:variable	line:96
+product_desc	../models.py	/^    product_desc = models.TextField()$/;"	kind:variable	line:99
+product_name	../models.py	/^    product_name = models.CharField(max_length=50)$/;"	kind:variable	line:98
+product_price	../models.py	/^    product_price = models.FloatField()$/;"	kind:variable	line:100
+product_type	../models.py	/^    product_type = models.CharField(max_length=20)$/;"	kind:variable	line:95
+project	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^project = u'bootstrap-datepicker'$/;"	kind:variable	line:56
+pygments_style	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^pygments_style = 'sphinx'$/;"	kind:variable	line:88
+read_data	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def read_data(self, config, data_source):$/;"	kind:member	line:478
+remove	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def remove(self, config, data_source):$/;"	kind:member	line:527
+remove_fields	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def remove_fields(self, config, data_source):$/;"	kind:member	line:531
+remove_other_fields	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def remove_other_fields(self, config, data_source):$/;"	kind:member	line:534
+remove_small_polygons	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def remove_small_polygons(self, config, data_source):$/;"	kind:member	line:554
+renderMapInset	../static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def renderMapInset(self, codes, left, top, width):$/;"	kind:member	line:221
+renderMapInset	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def renderMapInset(self, data_source, codes, left, top, width):$/;"	kind:member	line:161
+results	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^results = []$/;"	kind:variable	line:155
+shapelyGeometry	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^    shapelyGeometry = shapely.wkb.loads( geometry.ExportToWkb() )$/;"	kind:variable	line:49
+shp_driver	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^shp_driver = ogr.GetDriverByName( 'ESRI Shapefile' )$/;"	kind:variable	line:25
+shp_ds	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^shp_ds = shp_driver.CreateDataSource( outfile )$/;"	kind:variable	line:28
+shp_layer	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^shp_layer = shp_ds.CreateLayer( in_defn.GetName(),$/;"	kind:variable	line:29
+simplePolygon	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^    simplePolygon = simplifyPolygon(polygon)$/;"	kind:variable	line:167
+simplePolygons	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^  simplePolygons = []$/;"	kind:variable	line:158
+simplifiedLines	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^simplifiedLines = {}$/;"	kind:variable	line:95
+simplifier.py	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	1;"	kind:file	line:1
+simplify	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def simplify(self):$/;"	kind:member	line:445
+simplifyPolygon	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def simplifyPolygon(self, polygon):$/;"	kind:member	line:434
+simplifyPolygon	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^def simplifyPolygon(polygon):$/;"	kind:function	line:143
+simplifyRing	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def simplifyRing(self, ring):$/;"	kind:member	line:389
+simplifyRing	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^def simplifyRing(ring):$/;"	kind:function	line:97
+simplify_adjancent_polygons	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def simplify_adjancent_polygons(self, config, data_source):$/;"	kind:member	line:541
+source_suffix	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^source_suffix = '.rst'$/;"	kind:variable	line:47
+src_fd	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^    src_fd = in_defn.GetFieldDefn( fld_index )$/;"	kind:variable	line:35
+srs	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^                                srs = in_layer.GetSpatialRef() )$/;"	kind:variable	line:31
+start	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^start = int(round(time.time() * 1000))$/;"	kind:variable	line:57
+templates_path	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^templates_path = ['_templates']$/;"	kind:variable	line:44
+tests.py	../tests.py	1;"	kind:file	line:1
+texinfo_documents	../static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^texinfo_documents = [$/;"	kind:variable	line:236
+to_python	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def to_python(self, value):$/;"	kind:member	line:224
+tolerance	../static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^tolerance = 0.01$/;"	kind:variable	line:14
+track_num	../models.py	/^    track_num = models.CharField(max_length=20)$/;"	kind:variable	line:86
+track_price	../models.py	/^    track_price = models.FloatField()$/;"	kind:variable	line:87
+track_printtime	../models.py	/^    track_printtime = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:88
+track_type	../models.py	/^    track_type = models.CharField($/;"	kind:variable	line:84
+union	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def union(self, config, data_source):$/;"	kind:member	line:485
+urlpatterns	../urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
+urls.py	../urls.py	1;"	kind:file	line:1
+user_address	../models.py	/^    user_address = models.ManyToManyField('Address', blank=True)$/;"	kind:variable	line:62
+user_email	../models.py	/^    user_email = models.EmailField(null=True, blank=True)$/;"	kind:variable	line:56
+user_eval	../models.py	/^    user_eval = models.TextField(null=True, blank=True)$/;"	kind:variable	line:60
+user_name	../models.py	/^    user_name = models.CharField(max_length=10)$/;"	kind:variable	line:53
+user_phone	../models.py	/^    user_phone = models.CharField(max_length=11, null=True, blank=True)$/;"	kind:variable	line:57
+user_qq	../models.py	/^    user_qq = models.CharField(max_length=15, null=True, blank=True)$/;"	kind:variable	line:54
+user_taobao	../models.py	/^    user_taobao = models.CharField(max_length=30, null=True, blank=True)$/;"	kind:variable	line:58
+user_weibo	../models.py	/^    user_weibo = models.CharField(max_length=30, null=True, blank=True)$/;"	kind:variable	line:59
+user_weixin	../models.py	/^    user_weixin = models.CharField(max_length=30, null=True, blank=True)$/;"	kind:variable	line:55
+userlist	../views.py	/^def userlist(request):$/;"	kind:function	line:17
+views.py	../views.py	1;"	kind:file	line:1
+widgets	../forms.py	/^        widgets = {$/;"	kind:variable	line:18
+write_data	../static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def write_data(self, config, data_source):$/;"	kind:member	line:482
