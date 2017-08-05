@@ -1,4 +1,8 @@
 {% extends "./base.html" %}
+{% block head %}
+{% load static %}
+<script src="{% static 'orders/js/address_three.js' %}"></script>
+{% endblock %}
 {% block content %}
     <section class="content-header">
       <h1>
@@ -14,9 +18,48 @@
       <div>
         <form action="" method="POST">
           {% csrf_token %}
-          {{ form }}
-          <input type="submit" value="提交" >
+          <div>
+            所在地区：<select id="cmbClass">
+              
+            </select>
+            <select id="cmbProvince">
+              
+            </select>
+            <select id="cmbCity">
+              
+            </select>
+            <select id="cmbArea">
+            </select>
+            <div class="col-sm-8">详细地址：{{ form.address_full }} </div>
+            <script type="text/javascript" >
+              addressInit('cmbClass','cmbProvince','cmbCity','cmbArea');
+            </script>
+          </div>
+          <label  for="" class="col-sm-1 control-label">收货人姓名:</label>
+                <div class="col-sm-5">
+                  {{ form.user_name }}
+                </div>
+          <label  for="" class="col-sm-1 control-label">电话/手机:</label>
+                <div class="col-sm-5">
+                  {{ form.user_name }}
+                </div>
+          <input type="submit" value="保存" >
         </form>
+        <div>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <th>收货人</th>
+                <th>所在地区</th>
+                <th>详细地址</th>
+                <th>邮编</th>
+                <th>电话/手机</th>
+                <th>操作</th>
+                <th></th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 {% endblock %}

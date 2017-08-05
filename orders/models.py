@@ -32,18 +32,13 @@ class Order(models.Model):
 
 
 class Address(models.Model):
-    ADDRESS_AREA_CHOICES = (
-        ('CH', '中国大陆'),
-        ('TW', '台湾'),
-        ('GA', '港澳'),
-        ('HW', '海外其他'),
-    )
+    
     address_area = models.CharField(
-        max_length=10, choices=ADDRESS_AREA_CHOICES, default='CH')
-    address_city = models.CharField(max_length=20)
-    address_class = models.CharField(max_length=20)
-    address_full = models.CharField(max_length=100)
-    address_zip = models.CharField(max_length=10)
+        max_length=10)
+    address_province = models.CharField(max_length=20)
+    address_city = models.CharField(max_length=50)
+    address_class = models.CharField(max_length=50)
+    address_full = models.CharField(max_length=100)  
 
     def __str__(self):
         return self.address_area
