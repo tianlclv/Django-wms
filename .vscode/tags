@@ -11,9 +11,12 @@
 0005_auto_20170729_0854.py	../orders/migrations/0005_auto_20170729_0854.py	1;"	kind:file	line:1
 0006_auto_20170804_1504.py	../orders/migrations/0006_auto_20170804_1504.py	1;"	kind:file	line:1
 0007_auto_20170804_1552.py	../orders/migrations/0007_auto_20170804_1552.py	1;"	kind:file	line:1
+0008_remove_luser_user_address.py	../orders/migrations/0008_remove_luser_user_address.py	1;"	kind:file	line:1
+0009_luser_user_address.py	../orders/migrations/0009_luser_user_address.py	1;"	kind:file	line:1
+0010_auto_20170820_1255.py	../orders/migrations/0010_auto_20170820_1255.py	1;"	kind:file	line:1
 ALLOWED_HOSTS	../wms/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 AUTH_PASSWORD_VALIDATORS	../wms/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:92
-Address	../orders/models.py	/^class Address(models.Model):$/;"	kind:class	line:34
+Address	../orders/models.py	/^class Address(models.Model):$/;"	kind:class	line:52
 AddressForm	../orders/forms.py	/^class AddressForm(forms.ModelForm):$/;"	kind:class	line:6
 BASE_DIR	../wms/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
 Converter	../orders/static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^class Converter:$/;"	kind:class	line:34
@@ -25,7 +28,7 @@ Geometry	../orders/static/orders/adminlte/bower_components/jvectormap/converter/
 GeometryProperty	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class GeometryProperty(Variable):$/;"	kind:class	line:209
 INSTALLED_APPS	../wms/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
 LANGUAGE_CODE	../wms/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:111
-Luser	../orders/models.py	/^class Luser(models.Model):$/;"	kind:class	line:47
+Luser	../orders/models.py	/^class Luser(models.Model):$/;"	kind:class	line:37
 MIDDLEWARE	../wms/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
 Map	../orders/static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^class Map:$/;"	kind:class	line:17
 Map	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class Map:$/;"	kind:class	line:17
@@ -38,20 +41,23 @@ Migration	../orders/migrations/0004_auto_20170729_0816.py	/^class Migration(migr
 Migration	../orders/migrations/0005_auto_20170729_0854.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
 Migration	../orders/migrations/0006_auto_20170804_1504.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
 Migration	../orders/migrations/0007_auto_20170804_1552.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../orders/migrations/0008_remove_luser_user_address.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../orders/migrations/0009_luser_user_address.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../orders/migrations/0010_auto_20170820_1255.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
 ORDER_STATUS_CHOICES	../orders/models.py	/^    ORDER_STATUS_CHOICES = ($/;"	kind:variable	line:15
 ORDER_TYPE_CHOICES	../orders/models.py	/^    ORDER_TYPE_CHOICES = ($/;"	kind:variable	line:5
 Order	../orders/models.py	/^class Order(models.Model):$/;"	kind:class	line:4
 OrdersConfig	../orders/apps.py	/^class OrdersConfig(AppConfig):$/;"	kind:class	line:4
 PolygonSimplifier	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class PolygonSimplifier:$/;"	kind:class	line:346
 Processor	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^class Processor:$/;"	kind:class	line:469
-Product	../orders/models.py	/^class Product(models.Model):$/;"	kind:class	line:89
+Product	../orders/models.py	/^class Product(models.Model):$/;"	kind:class	line:92
 ROOT_URLCONF	../wms/settings.py	/^ROOT_URLCONF = 'wms.urls'$/;"	kind:variable	line:53
 SECRET_KEY	../wms/settings.py	/^SECRET_KEY = 'wa3gxzp-acy$mxpo78&o)!8attw#xc38)^9un$^)**xwn@5kgh'$/;"	kind:variable	line:23
 STATIC_URL	../wms/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:125
 TEMPLATES	../wms/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
 TIME_ZONE	../wms/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:113
-TRACK_TYPE_CHOOICES	../orders/models.py	/^    TRACK_TYPE_CHOOICES = ($/;"	kind:variable	line:64
-Track	../orders/models.py	/^class Track(models.Model):$/;"	kind:class	line:63
+TRACK_TYPE_CHOOICES	../orders/models.py	/^    TRACK_TYPE_CHOOICES = ($/;"	kind:variable	line:67
+Track	../orders/models.py	/^class Track(models.Model):$/;"	kind:class	line:66
 USE_I18N	../wms/settings.py	/^USE_I18N = True$/;"	kind:variable	line:115
 USE_L10N	../wms/settings.py	/^USE_L10N = True$/;"	kind:variable	line:117
 USE_TZ	../wms/settings.py	/^USE_TZ = True$/;"	kind:variable	line:119
@@ -69,20 +75,20 @@ __init__	../orders/static/orders/adminlte/bower_components/jvectormap/converter/
 __init__.py	../orders/__init__.py	1;"	kind:file	line:1
 __init__.py	../orders/migrations/__init__.py	1;"	kind:file	line:1
 __init__.py	../wms/__init__.py	1;"	kind:file	line:1
+__str__	../orders/models.py	/^    def __str__(self):$/;"	kind:member	line:100
 __str__	../orders/models.py	/^    def __str__(self):$/;"	kind:member	line:30
-__str__	../orders/models.py	/^    def __str__(self):$/;"	kind:member	line:43
-__str__	../orders/models.py	/^    def __str__(self):$/;"	kind:member	line:59
-__str__	../orders/models.py	/^    def __str__(self):$/;"	kind:member	line:85
-__str__	../orders/models.py	/^    def __str__(self):$/;"	kind:member	line:97
+__str__	../orders/models.py	/^    def __str__(self):$/;"	kind:member	line:49
+__str__	../orders/models.py	/^    def __str__(self):$/;"	kind:member	line:61
+__str__	../orders/models.py	/^    def __str__(self):$/;"	kind:member	line:88
 addPath	../orders/static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def addPath(self, path, code, name):$/;"	kind:member	line:26
 addPath	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def addPath(self, path, code, name):$/;"	kind:member	line:26
-address	../orders/views.py	/^def address(request):$/;"	kind:function	line:39
-address_area	../orders/models.py	/^    address_area = models.CharField($/;"	kind:variable	line:36
-address_city	../orders/models.py	/^    address_city = models.CharField(max_length=50)$/;"	kind:variable	line:39
-address_class	../orders/models.py	/^    address_class = models.CharField(max_length=50)$/;"	kind:variable	line:40
-address_full	../orders/models.py	/^    address_full = models.CharField(max_length=100)  $/;"	kind:variable	line:41
-address_province	../orders/models.py	/^    address_province = models.CharField(max_length=20)$/;"	kind:variable	line:38
-adduser	../orders/views.py	/^def adduser(request):$/;"	kind:function	line:22
+address	../orders/views.py	/^def address(request):$/;"	kind:function	line:51
+address_area	../orders/models.py	/^    address_area = models.CharField($/;"	kind:variable	line:54
+address_city	../orders/models.py	/^    address_city = models.CharField(max_length=50)$/;"	kind:variable	line:57
+address_class	../orders/models.py	/^    address_class = models.CharField(max_length=50)$/;"	kind:variable	line:58
+address_full	../orders/models.py	/^    address_full = models.TextField(null=True, blank=True)  $/;"	kind:variable	line:59
+address_province	../orders/models.py	/^    address_province = models.CharField(max_length=20)$/;"	kind:variable	line:56
+adduser	../orders/views.py	/^def adduser(request):$/;"	kind:function	line:25
 admin.py	../orders/admin.py	1;"	kind:file	line:1
 application	../wms/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 applyFilters	../orders/static/orders/adminlte/bower_components/jvectormap/converter/converter.py	/^  def applyFilters(self, geometry):$/;"	kind:member	line:263
@@ -108,6 +114,9 @@ dependencies	../orders/migrations/0004_auto_20170729_0816.py	/^    dependencies 
 dependencies	../orders/migrations/0005_auto_20170729_0854.py	/^    dependencies = [$/;"	kind:variable	line:10
 dependencies	../orders/migrations/0006_auto_20170804_1504.py	/^    dependencies = [$/;"	kind:variable	line:10
 dependencies	../orders/migrations/0007_auto_20170804_1552.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../orders/migrations/0008_remove_luser_user_address.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../orders/migrations/0009_luser_user_address.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../orders/migrations/0010_auto_20170820_1255.py	/^    dependencies = [$/;"	kind:variable	line:10
 equals	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def equals(self, value, context):$/;"	kind:member	line:215
 error_messages	../orders/forms.py	/^        error_messages = {$/;"	kind:variable	line:28
 exclude_patterns	../orders/static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^exclude_patterns = ['_build']$/;"	kind:variable	line:71
@@ -142,6 +151,8 @@ field	../orders/migrations/0006_auto_20170804_1504.py	/^            field=models
 field	../orders/migrations/0007_auto_20170804_1552.py	/^            field=models.CharField(max_length=20),$/;"	kind:variable	line:28
 field	../orders/migrations/0007_auto_20170804_1552.py	/^            field=models.CharField(max_length=50),$/;"	kind:variable	line:18
 field	../orders/migrations/0007_auto_20170804_1552.py	/^            field=models.CharField(max_length=50),$/;"	kind:variable	line:23
+field	../orders/migrations/0009_luser_user_address.py	/^            field=models.ManyToManyField(blank=True, to='orders.Address'),$/;"	kind:variable	line:18
+field	../orders/migrations/0010_auto_20170820_1255.py	/^            field=models.TextField(blank=True, null=True),$/;"	kind:variable	line:18
 fields	../orders/forms.py	/^        fields = "__all__"$/;"	kind:variable	line:16
 fields	../orders/forms.py	/^        fields = "__all__"$/;"	kind:variable	line:9
 fields	../orders/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
@@ -170,7 +181,7 @@ in_feat	../orders/static/orders/adminlte/bower_components/jvectormap/converter/s
 in_feat	../orders/static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^in_feat = in_layer.GetNextFeature()$/;"	kind:variable	line:178
 in_field_count	../orders/static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^in_field_count = in_defn.GetFieldCount()$/;"	kind:variable	line:33
 in_layer	../orders/static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^in_layer = in_ds.GetLayer( 0 )$/;"	kind:variable	line:20
-index	../orders/views.py	/^def index(request):$/;"	kind:function	line:9
+index	../orders/views.py	/^def index(request):$/;"	kind:function	line:12
 indexFrom	../orders/static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^          indexFrom = i$/;"	kind:variable	line:81
 indexTo	../orders/static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^          indexTo = i+1$/;"	kind:variable	line:82
 infile	../orders/static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^infile = '\/Users\/kirilllebedev\/Maps\/50m-admin-0-countries\/ne_50m_admin_0_countries.shp'$/;"	kind:variable	line:15
@@ -187,7 +198,7 @@ load_data	../orders/static/orders/adminlte/bower_components/jvectormap/converter
 man_pages	../orders/static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^man_pages = [$/;"	kind:variable	line:222
 manage.py	../manage.py	1;"	kind:file	line:1
 master_doc	../orders/static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^master_doc = 'index'$/;"	kind:variable	line:53
-max_length	../orders/models.py	/^        max_length=10)$/;"	kind:variable	line:37
+max_length	../orders/models.py	/^        max_length=10)$/;"	kind:variable	line:55
 merge	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def merge(self, config, data_source):$/;"	kind:member	line:500
 model	../orders/forms.py	/^        model = Address$/;"	kind:variable	line:8
 model	../orders/forms.py	/^        model = Luser$/;"	kind:variable	line:15
@@ -221,6 +232,9 @@ model_name	../orders/migrations/0006_auto_20170804_1504.py	/^            model_n
 model_name	../orders/migrations/0007_auto_20170804_1552.py	/^            model_name='address',$/;"	kind:variable	line:16
 model_name	../orders/migrations/0007_auto_20170804_1552.py	/^            model_name='address',$/;"	kind:variable	line:21
 model_name	../orders/migrations/0007_auto_20170804_1552.py	/^            model_name='address',$/;"	kind:variable	line:26
+model_name	../orders/migrations/0008_remove_luser_user_address.py	/^            model_name='luser',$/;"	kind:variable	line:16
+model_name	../orders/migrations/0009_luser_user_address.py	/^            model_name='luser',$/;"	kind:variable	line:16
+model_name	../orders/migrations/0010_auto_20170820_1255.py	/^            model_name='address',$/;"	kind:variable	line:16
 models.py	../orders/models.py	1;"	kind:file	line:1
 name	../orders/apps.py	/^    name = 'orders'$/;"	kind:variable	line:5
 name	../orders/migrations/0001_initial.py	/^            name='Address',$/;"	kind:variable	line:18
@@ -257,6 +271,9 @@ name	../orders/migrations/0006_auto_20170804_1504.py	/^            name='address
 name	../orders/migrations/0007_auto_20170804_1552.py	/^            name='address_city',$/;"	kind:variable	line:17
 name	../orders/migrations/0007_auto_20170804_1552.py	/^            name='address_class',$/;"	kind:variable	line:22
 name	../orders/migrations/0007_auto_20170804_1552.py	/^            name='address_province',$/;"	kind:variable	line:27
+name	../orders/migrations/0008_remove_luser_user_address.py	/^            name='user_address',$/;"	kind:variable	line:17
+name	../orders/migrations/0009_luser_user_address.py	/^            name='user_address',$/;"	kind:variable	line:17
+name	../orders/migrations/0010_auto_20170820_1255.py	/^            name='address_full',$/;"	kind:variable	line:17
 new_name	../orders/migrations/0006_auto_20170804_1504.py	/^            new_name='address_province',$/;"	kind:variable	line:18
 old_name	../orders/migrations/0006_auto_20170804_1504.py	/^            old_name='address_zip',$/;"	kind:variable	line:17
 operations	../orders/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
@@ -266,8 +283,11 @@ operations	../orders/migrations/0004_auto_20170729_0816.py	/^    operations = [$
 operations	../orders/migrations/0005_auto_20170729_0854.py	/^    operations = [$/;"	kind:variable	line:14
 operations	../orders/migrations/0006_auto_20170804_1504.py	/^    operations = [$/;"	kind:variable	line:14
 operations	../orders/migrations/0007_auto_20170804_1552.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../orders/migrations/0008_remove_luser_user_address.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../orders/migrations/0009_luser_user_address.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../orders/migrations/0010_auto_20170820_1255.py	/^    operations = [$/;"	kind:variable	line:14
 operations	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  operations = set(["equality", "membership"])$/;"	kind:variable	line:210
-order	../orders/views.py	/^def order(request):$/;"	kind:function	line:13
+order	../orders/views.py	/^def order(request):$/;"	kind:function	line:16
 order_eval	../orders/models.py	/^    order_eval = models.TextField()$/;"	kind:variable	line:25
 order_money	../orders/models.py	/^    order_money = models.FloatField()$/;"	kind:variable	line:13
 order_product	../orders/models.py	/^    order_product = models.ForeignKey('Product')$/;"	kind:variable	line:28
@@ -297,13 +317,13 @@ primary_domain	../orders/static/orders/adminlte/bower_components/bootstrap-datep
 process	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def process(self):$/;"	kind:member	line:473
 processor	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^processor = Processor(paramsJson)$/;"	kind:variable	line:572
 processor.py	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	1;"	kind:file	line:1
-product	../orders/views.py	/^def product(request):$/;"	kind:function	line:56
-product_brand	../orders/models.py	/^    product_brand = models.CharField(max_length=30)$/;"	kind:variable	line:92
-product_cate	../orders/models.py	/^    product_cate = models.CharField(max_length=20)$/;"	kind:variable	line:91
-product_desc	../orders/models.py	/^    product_desc = models.TextField()$/;"	kind:variable	line:94
-product_name	../orders/models.py	/^    product_name = models.CharField(max_length=50)$/;"	kind:variable	line:93
-product_price	../orders/models.py	/^    product_price = models.FloatField()$/;"	kind:variable	line:95
-product_type	../orders/models.py	/^    product_type = models.CharField(max_length=20)$/;"	kind:variable	line:90
+product	../orders/views.py	/^def product(request):$/;"	kind:function	line:68
+product_brand	../orders/models.py	/^    product_brand = models.CharField(max_length=30)$/;"	kind:variable	line:95
+product_cate	../orders/models.py	/^    product_cate = models.CharField(max_length=20)$/;"	kind:variable	line:94
+product_desc	../orders/models.py	/^    product_desc = models.TextField()$/;"	kind:variable	line:97
+product_name	../orders/models.py	/^    product_name = models.CharField(max_length=50)$/;"	kind:variable	line:96
+product_price	../orders/models.py	/^    product_price = models.FloatField()$/;"	kind:variable	line:98
+product_type	../orders/models.py	/^    product_type = models.CharField(max_length=20)$/;"	kind:variable	line:93
 project	../orders/static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^project = u'bootstrap-datepicker'$/;"	kind:variable	line:56
 pygments_style	../orders/static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^pygments_style = 'sphinx'$/;"	kind:variable	line:88
 read_data	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def read_data(self, config, data_source):$/;"	kind:member	line:478
@@ -337,25 +357,25 @@ templates_path	../orders/static/orders/adminlte/bower_components/bootstrap-datep
 texinfo_documents	../orders/static/orders/adminlte/bower_components/bootstrap-datepicker/docs/conf.py	/^texinfo_documents = [$/;"	kind:variable	line:236
 to_python	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def to_python(self, value):$/;"	kind:member	line:224
 tolerance	../orders/static/orders/adminlte/bower_components/jvectormap/converter/simplifier.py	/^tolerance = 0.01$/;"	kind:variable	line:14
-track_num	../orders/models.py	/^    track_num = models.CharField(max_length=20)$/;"	kind:variable	line:81
-track_price	../orders/models.py	/^    track_price = models.FloatField()$/;"	kind:variable	line:82
-track_printtime	../orders/models.py	/^    track_printtime = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:83
-track_type	../orders/models.py	/^    track_type = models.CharField($/;"	kind:variable	line:79
+track_num	../orders/models.py	/^    track_num = models.CharField(max_length=20)$/;"	kind:variable	line:84
+track_price	../orders/models.py	/^    track_price = models.FloatField()$/;"	kind:variable	line:85
+track_printtime	../orders/models.py	/^    track_printtime = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:86
+track_type	../orders/models.py	/^    track_type = models.CharField($/;"	kind:variable	line:82
 union	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def union(self, config, data_source):$/;"	kind:member	line:485
 urlpatterns	../orders/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
 urlpatterns	../wms/urls.py	/^urlpatterns = (url(r'^orders\/', include('orders.urls')),$/;"	kind:variable	line:6
 urls.py	../orders/urls.py	1;"	kind:file	line:1
 urls.py	../wms/urls.py	1;"	kind:file	line:1
-user_address	../orders/models.py	/^    user_address = models.ManyToManyField('Address', blank=True)$/;"	kind:variable	line:57
-user_email	../orders/models.py	/^    user_email = models.EmailField(null=True, blank=True)$/;"	kind:variable	line:51
-user_eval	../orders/models.py	/^    user_eval = models.TextField(null=True, blank=True)$/;"	kind:variable	line:55
-user_name	../orders/models.py	/^    user_name = models.CharField(max_length=10)$/;"	kind:variable	line:48
-user_phone	../orders/models.py	/^    user_phone = models.CharField(max_length=11, null=True, blank=True)$/;"	kind:variable	line:52
-user_qq	../orders/models.py	/^    user_qq = models.CharField(max_length=15, null=True, blank=True)$/;"	kind:variable	line:49
-user_taobao	../orders/models.py	/^    user_taobao = models.CharField(max_length=30, null=True, blank=True)$/;"	kind:variable	line:53
-user_weibo	../orders/models.py	/^    user_weibo = models.CharField(max_length=30, null=True, blank=True)$/;"	kind:variable	line:54
-user_weixin	../orders/models.py	/^    user_weixin = models.CharField(max_length=30, null=True, blank=True)$/;"	kind:variable	line:50
-userlist	../orders/views.py	/^def userlist(request):$/;"	kind:function	line:17
+user_address	../orders/models.py	/^    user_address = models.ManyToManyField('Address', blank=True)$/;"	kind:variable	line:47
+user_email	../orders/models.py	/^    user_email = models.EmailField(null=True, blank=True)$/;"	kind:variable	line:41
+user_eval	../orders/models.py	/^    user_eval = models.TextField(null=True, blank=True)$/;"	kind:variable	line:45
+user_name	../orders/models.py	/^    user_name = models.CharField(max_length=10)$/;"	kind:variable	line:38
+user_phone	../orders/models.py	/^    user_phone = models.CharField(max_length=11, null=True, blank=True)$/;"	kind:variable	line:42
+user_qq	../orders/models.py	/^    user_qq = models.CharField(max_length=15, null=True, blank=True)$/;"	kind:variable	line:39
+user_taobao	../orders/models.py	/^    user_taobao = models.CharField(max_length=30, null=True, blank=True)$/;"	kind:variable	line:43
+user_weibo	../orders/models.py	/^    user_weibo = models.CharField(max_length=30, null=True, blank=True)$/;"	kind:variable	line:44
+user_weixin	../orders/models.py	/^    user_weixin = models.CharField(max_length=30, null=True, blank=True)$/;"	kind:variable	line:40
+userlist	../orders/views.py	/^def userlist(request):$/;"	kind:function	line:20
 views.py	../orders/views.py	1;"	kind:file	line:1
 widgets	../orders/forms.py	/^        widgets = {$/;"	kind:variable	line:18
 write_data	../orders/static/orders/adminlte/bower_components/jvectormap/converter/processor.py	/^  def write_data(self, config, data_source):$/;"	kind:member	line:482

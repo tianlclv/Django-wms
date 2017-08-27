@@ -31,17 +31,7 @@ class Order(models.Model):
         return self.order_type
 
 
-class Address(models.Model):
-    
-    address_area = models.CharField(
-        max_length=10)
-    address_province = models.CharField(max_length=20)
-    address_city = models.CharField(max_length=50)
-    address_class = models.CharField(max_length=50)
-    address_full = models.CharField(max_length=100)  
 
-    def __str__(self):
-        return self.address_area
 
 
 class Luser(models.Model):
@@ -55,9 +45,22 @@ class Luser(models.Model):
     user_eval = models.TextField(null=True, blank=True)
     # MangyToManyField中null=True会报fields.W340错误
     user_address = models.ManyToManyField('Address', blank=True)
+    
+    def __str__(self):
+        return self.user_name,self.user_qq,self.user_weixin,self.user_email,self.user_phone,self.user_taobao,self.user_weibo,self.user_eval
+
+class Address(models.Model):
+    
+    address_area = models.CharField(
+        max_length=10)
+    address_province = models.CharField(max_length=20)
+    address_city = models.CharField(max_length=50)
+    address_class = models.CharField(max_length=50)
+    address_full = models.TextField(null=True, blank=True)  
 
     def __str__(self):
-        return self.user_name
+        return self.address_area,self.address_province,self.address_city,self.address_class,self.address_full
+
 
 
 class Track(models.Model):

@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect
 
 from orders.forms import UserForm, AddressForm
 from orders import models
+from .models import Address
 
 import json
 
@@ -26,7 +27,16 @@ def adduser(request):
     if request.method == 'POST':
         form = UserForm(request.POST)
         if form.is_valid():
+            address_area = request.POST.get('address_area')
+            address_province = request.POST.get('address_province')
+            address_city = request.POST.get('address_city')
+            address_class = request.POST.get('address_class')
+            address_full = request.POST.get('address_full')
 
+            joe=Address.objects.get(address_full=user_address)
+
+            form.save()
+            form.address_full.add(joe)
             form.save()
             return HttpResponseRedirect('./adduser.html')
         else:
@@ -47,6 +57,7 @@ def address(request):
             address_city = request.POST.get('address_city')
             address_class = request.POST.get('address_class')
             address_full = request.POST.get('address_full')
+            
             form.save()
             return render(request, 'orders/address.html', {'form':form})
     else:
